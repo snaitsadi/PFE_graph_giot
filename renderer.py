@@ -4,7 +4,7 @@ Rendu différentiable d'un graphe en image (grille de pixels).
 import torch
 
 class DifferentiableRenderer:
-      """Rendu d'un graphe sur une grille de pixels de façon différentiable."""
+    """Rendu d'un graphe sur une grille de pixels de façon différentiable."""
     def __init__(self, height=64, width=64, sigma_node=0.05, sigma_edge=0.02):
         self.H = height
         self.W = width
